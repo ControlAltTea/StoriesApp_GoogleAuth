@@ -1,6 +1,6 @@
 # [StoriesApp_GoogleAuth]
 
-![stories](https://github.com/ControlAltTea/Clocks/blob/main/images/clocks.gif?raw=true)
+![stories]([https://github.com/ControlAltTea/Clocks/blob/main/images/clocks.gif?raw=true](https://raw.githubusercontent.com/ControlAltTea/StoriesApp_GoogleAuth/main/images/StoriesApp.gif?token=GHSAT0AAAAAABUXB62D5NN2IIEFSS5OS7Z6YYD5O2A))
 
 [Tea Tells Time](https://teatellstime.netlify.app/)
 
