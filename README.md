@@ -2,7 +2,7 @@
 
 ![stories](https://raw.githubusercontent.com/ControlAltTea/StoriesApp_GoogleAuth/main/images/StoriesApp.gif?token=GHSAT0AAAAAABUXB62D5NN2IIEFSS5OS7Z6YYD5O2A)
 
-Using OOP, this web app allows you to compare multiple timezones. Each clock is in 12-hour time, starting with Japan.
+Using Google Authorization and Handlebar partials, this web app allows the user to create a blog style application.
 
 ## Tech Used : ![HANDLEBARS](https://img.shields.io/badge/-HBS-orange?style=for-the-badge&logo=appveyor)![CSS](https://img.shields.io/badge/-CSS-green?style=for-the-badge&logo=appveyor)![Javascript](https://img.shields.io/badge/-Javascript-blue?style=for-the-badge&logo=appveyor)
 
