@@ -6,10 +6,15 @@ const Story = require('../models/Story')
 
 //@desc Login/Landing Page
 //@Route GET /
-router.get('/', ensureGuest, (req,res) => {
-    res.render('login',
-    {layout: 'login' }
-    )
+router.get('/dashboard', ensureGuest, (req, res) => {
+    try {
+        res.render('login',
+            { layout: 'login' }
+        )
+    } catch (err) {
+        console.error(err)
+        res.render('errors/500')
+    }
 })
 
 //@desc Dashboard
@@ -25,7 +30,7 @@ router.get('/dashboard', ensureAuth, async (req,res) => {
         })
     } catch (err) {
         console.error(err)
-        res.render('error/500')
+        res.render('errors/500')
     }
 })
 

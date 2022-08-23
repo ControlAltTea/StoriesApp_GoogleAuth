@@ -63,8 +63,6 @@ app.engine(
 
 app.set("view engine", ".hbs");
 
-
-
 // checking if the user is in the database
 // if not, there is no session
 app.use(session({
