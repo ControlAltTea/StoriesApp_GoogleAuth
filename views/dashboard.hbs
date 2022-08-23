@@ -1,6 +1,10 @@
 <h6>DASHBOARD</h6>
+{{!-- 'name' is found in the users section of the database when the user logs in --}}
 <h3>Welcome {{name}}</h3>
 <p>Here are your stories</p>
+{{!-- 'stories' is found in the database when the user creates a story
+        if there are no stories in the database, a message is displayed saying as much
+ --}}
 {{#if stories}}
     <table class="striped">
         <thead>
